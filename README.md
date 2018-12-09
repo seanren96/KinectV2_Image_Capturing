@@ -32,8 +32,9 @@ To run this project and get the results properly, it is nessecary to adjust the 
     
 7. Under Linker > input > additional Dependencies add :opencv_world330d. 
 
-    **this file name maybe vary depends on your opencv version, it could be different from mine. The post-fix "d" stands for debug, so if you are under configuration, choose "d".
+    **this file name 'opencv_world330d' maybe vary depends on your opencv version, it could be different from mine. The post-fix "d" stands for debug, so if you are under configuration, choose "d".\
+    ** $(KINECTSDK20_DIR) is a variable not a exact value, it presents the directory of the sdk you installed. 
     **If you are not sure about the number in the file, just use google with your opencv Version.
- Still stuck at some point, check this out https://www.youtube.com/watch?v=M-VHaLHC4XI
+ Still stuck at some point, check this out https://www.youtube.com/watch?v=M-VHaLHC4XI for complete opencv configuration in vs2017 windows. 
 
 The recorded file will be stored under KinectStream > Project1.  
