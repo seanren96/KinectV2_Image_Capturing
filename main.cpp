@@ -1,13 +1,12 @@
 #include <Kinect.h>
-#include <iostream>
 #include <opencv2/highgui.hpp>
+#include <iostream>
 #include <windows.h>
 #include <thread>
 #include <pthread.h>
 #include <ctime>
 #include <cstdio>
 #include <time.h>
-#include "WaveFile.h"
 
 using namespace std;
 using namespace cv;
