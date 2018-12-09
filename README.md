@@ -20,7 +20,7 @@ Tips:
 
 To run this project and get the results properly, it is nessecary to adjust the properties in the property manager. That is because the property manager gives the directory to the
  VS2017 to get it find the function written in the cpp file. 
-1. Go to View > Property Manager. 
+1. Go to View > Property Manager > Add New Project Property Sheet. 
 2. In the Property Manager, right click on the project name and select properties. 
 3. Under C/C++ > Additional Include Directories, add "$(KINECTSDK20_DIR)/include".
 
