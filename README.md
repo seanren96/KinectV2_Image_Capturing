@@ -31,6 +31,7 @@ To run this project and get the results properly, it is nessecary to adjust the 
 6. Under cv++ Directories > include Path add "$(OpenCV_DIR)/build/include/opencv2"
     
 7. Under Linker > input > additional Dependencies add :opencv_world330d. 
+
     **this file name maybe vary depends on your opencv version, it could be different from mine. The post-fix "d" stands for debug, so if you are under configuration, choose "d".
     **If you are not sure about the number in the file, just use google with your opencv Version.
  Still stuck at some point, check this out https://www.youtube.com/watch?v=M-VHaLHC4XI
