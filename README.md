@@ -1,5 +1,5 @@
 # KinectV2_Image_Capturing
-This is a informal test code for capturing depth image utilising Kinect V2. 
+This is a demo code for capturing depth image utilising Kinect V2 on windows. 
 
 Requirement: 
 Software:
