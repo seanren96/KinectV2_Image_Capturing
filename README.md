@@ -38,3 +38,9 @@ To run this project and get the results properly, it is nessecary to adjust the 
  Still stuck at some point, check this out https://www.youtube.com/watch?v=M-VHaLHC4XI for complete opencv configuration in vs2017 windows. 
 
 The recorded file will be stored under KinectStream > Project1.  
+
+Updated -- Depth value obtaining
+
+Base on the main function, we have successfully obtained the raw pixel value passed by Kinect depth camera, the depth value, which is asigned 16 bit, can be read as a distance in milometre straight away. For example, if we have a depth frame, the pixel value of (222,992) is 3291, then we can interpret this number by saying the distance from the object to the center of the camera(Kinect), is 3.291 Meter. 
+
+If you want to check the pixel value please check the processing.py out. **The coordination of the pixel should be (column, row). 
